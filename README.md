@@ -3,7 +3,6 @@ This repo source code has intended bugs. To run the server properly, you will ha
 
 # goals
 * Run a simple ExpressJS server with NodeJS.
-* Learn how to use vscode.
 * Learn how to use a simple GET REST API.
 * Learn to find bugs and fix them!
     * #1 port already in use. (EADDRINUSE, Address already in use)
