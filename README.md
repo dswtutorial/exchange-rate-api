@@ -1,6 +1,15 @@
-# exchange-rate-api
+# exchange-rate-api 
+This repo source code has intended bugs. To run the server properly, you will have to fix those bugs. Each week I will add new bugs, I believe that the best way to learn how to be a good coder is to handle bugs and fix them, although this repo state that it uses a simple exchange rate api, this is not it's main purpose.
 
-# steps
+# goals
+* Run a simple ExpressJS server with NodeJS.
+* Learn how to use vscode.
+* Learn how to use a simple GET REST API.
+* Learn to find bugs and fix them!
+    * #1 port already in use. (EADDRINUSE, Address already in use)
+    * #2 more bugs to come soon...
+
+# steps to run this code
 1. prepare your environment to tun the node app
     1. fork repo (here on Github above in the toolbar next to Star on the right)
     1. download Git Bash (If you are using windows, and please use google to download Git Bash=)
