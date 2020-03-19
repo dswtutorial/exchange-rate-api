@@ -8,7 +8,8 @@ This repo source code has intended bugs. To run the server properly, you will ha
     * #1 port already in use. (EADDRINUSE, Address already in use)
     * #2 more bugs to come soon...
 
-# steps to run this code - full explaination on https://www.dswtutorial.com/how-to-fix-bug-nodejs-address-already-in-use/
+# steps to run this code 
+* full explaination are available in Hebrew on https://www.dswtutorial.com/how-to-fix-bug-nodejs-address-already-in-use/
 1. prepare your environment to tun the node app
     1. fork repo (https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
     1. download Git Bash (If you are using windows, https://git-scm.com/downloads)
