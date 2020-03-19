@@ -1,7 +1,7 @@
 DSW Tutorial - REST API - Simple GET Request
 ========
 
-# exchange-rate-api 
+# simple-nodejs-server 
 This repo source code has intended bugs! 
 
 To be able to run the server properly, you will have to fix those bugs.
