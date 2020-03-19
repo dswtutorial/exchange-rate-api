@@ -23,29 +23,29 @@ that
 * full explaination are available in Hebrew on https://www.dswtutorial.com/how-to-fix-bug-nodejs-address-already-in-use/
 1. prepare your environment to tun the node app
     1. fork repo (https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
-      ![How to fork](fork.png "How to fork")
+      ![How to fork](docs/fork.png "How to fork")
       if you don't have a GitHub account, please sign up and create one, this is how we fork it.
     1. download Git Bash (If you are using windows, https://git-scm.com/downloads)
     1. open GitBash
-      ![How to open bash on windows](open_bash.png "How to open bash on windows")
+      ![How to open bash on windows](docs/open_bash.png "How to open bash on windows")
     1. #run: mkdir /c/git (I recommend /c/git on Windows)
     1. #run: cd /c/git (navigation to the required folder is needed)
     1. how to get the clone url from the repo you forked (you can clone dswtutorial repo as well but it is better if you fork)
-     ![How to get clone url](clone.png "How to get clone url")
+     ![How to get clone url](docs/clone.png "How to get clone url")
     1. #run: git clone https://github.com/{yourusername}/exchange-rate-api.git (copies the repo to your computer)
-     ![How to use git bash to clone](git_clone.png "How to use git bash to clone")
+     ![How to use git bash to clone](docs/git_clone.png "How to use git bash to clone")
     1. #run:  cd /c/git/exchange-rate-api/myExpressApp
     1. install nodejs (https://nodejs.org/en/download/)
     1. #run: npm install (make sure you cd to /c/git/exchange-rate-api/myExpressApp)
     1. install vscode (https://code.visualstudio.com/docs/setup/setup-overview)
     1. configure vscode to debug nodejs *already configured in cloned repo* (https://code.visualstudio.com/docs/nodejs/nodejs-tutorial)
-         ![How to install node and vs code](install.png "How to install node and vs code")
+         ![How to install node and vs code](docs/install.png "How to install node and vs code")
     1. #run: code . (will open vs code and open the project folder /c/git/exchange-rate-api/myExpressApp)
 1. open the project with the path you choosed (C:\git\exchange-rate-api\myExpressApp) *already opened if used "code ."*.
 1. run the project (F5 on keyboard)
-   ![How to start nodeJS app on vscode](start.png "How to start nodeJS app on vscode")
+   ![How to start nodeJS app on vscode](docs/start.png "How to start nodeJS app on vscode")
 1. Oops, there is a bug (it is OK, don't be scared).
-   ![How to debug nodeJS app on vscode](debug.png "How to debug nodeJS app on vscode")
+   ![How to debug nodeJS app on vscode](docs/debug.png "How to debug nodeJS app on vscode")
 1. if you did all as expected, after running the app, you should see this message:
    ```javascript
             C:\Program Files\nodejs\node.exe --inspect-brk=6758 bin\www 
