@@ -38,31 +38,29 @@ that
 1. run the project (F5 on keyboard)
 1. Oops, there is a bug (it is OK, don't be scared).
 1. if you did all as expected, after running the app, you should see this message:
-```javascript
-         C:\Program Files\nodejs\node.exe --inspect-brk=6758 bin\www 
-         Debugger listening on ws://127.0.0.1:6758/28196371-fd09-4827-8fb6-ebd56b88eb54
-         For help, see: https://nodejs.org/en/docs/inspector
-         Debugger attached.
-         server is listening on 3000
-         app.js:60
-         Error: listen EADDRINUSE: address already in use :::3000
-             at Server.setupListenHandle [as _listen2] (net.js:1309:16)
-             at listenInCluster (net.js:1357:12)
-             at Server.listen (net.js:1445:7)
-             at Object.<anonymous> (c:\git\exchange-rate-api\myExpressApp\bin\www:24:27)
-             at Module._compile (internal/modules/cjs/loader.js:1154:14)
-             at Object.Module._extensions..js (internal/modules/cjs/loader.js:1177:10)
-             at Module.load (internal/modules/cjs/loader.js:1001:32)
-             at Function.Module._load (internal/modules/cjs/loader.js:900:14)
-             at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
-             at internal/main/run_main_module.js:18:47
-         Emitted 'error' event on Server instance at:
-             at emitErrorNT (net.js:1336:8)
-             at processTicksAndRejections (internal/process/task_queues.js:84:21)
-```
-1. Read the blog post on how to handle the bug "EADDRINUSE: address already in use" - 
-   port is already taken, while running nodejs with expressjs.
-   https://www.dswtutorial.com/how-to-fix-bug-nodejs-address-already-in-use/
+   ```javascript
+            C:\Program Files\nodejs\node.exe --inspect-brk=6758 bin\www 
+            Debugger listening on ws://127.0.0.1:6758/28196371-fd09-4827-8fb6-ebd56b88eb54
+            For help, see: https://nodejs.org/en/docs/inspector
+            Debugger attached.
+            server is listening on 3000
+            app.js:60
+            Error: listen EADDRINUSE: address already in use :::3000
+                at Server.setupListenHandle [as _listen2] (net.js:1309:16)
+                at listenInCluster (net.js:1357:12)
+                at Server.listen (net.js:1445:7)
+                at Object.<anonymous> (c:\git\exchange-rate-api\myExpressApp\bin\www:24:27)
+                at Module._compile (internal/modules/cjs/loader.js:1154:14)
+                at Object.Module._extensions..js (internal/modules/cjs/loader.js:1177:10)
+                at Module.load (internal/modules/cjs/loader.js:1001:32)
+                at Function.Module._load (internal/modules/cjs/loader.js:900:14)
+                at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+                at internal/main/run_main_module.js:18:47
+            Emitted 'error' event on Server instance at:
+                at emitErrorNT (net.js:1336:8)
+                at processTicksAndRejections (internal/process/task_queues.js:84:21)
+   ```
+1. Read the blog post on how to handle the bug "EADDRINUSE: address already in use" -  https://www.dswtutorial.com/how-to-fix-bug-nodejs-address-already-in-use/ (port is already taken, while running nodejs with expressjs server).
 1. fix the bug :)
 1. commit with a descreptive message of what you did to fix the bug.
 1. push to your forked repo.
