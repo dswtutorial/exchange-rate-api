@@ -1,5 +1,16 @@
+DSW Tutorial - REST API - Simple GET Request
+========
+
 # exchange-rate-api 
-This repo source code has intended bugs. To run the server properly, you will have to fix those bugs. Each week I will add new bugs, I believe that the best way to learn how to be a good coder is to handle bugs and fix them, although this repo state that it uses a simple exchange rate api, this is not it's main purpose.
+This repo source code has intended bugs! 
+
+To be able to run the server properly, you will have to fix those bugs.
+Each week I will add new bugs, I believe that fixing bugs is the best way to learn and to become a better coder.
+
+Only after you fixed the bugs, you will have a nodeJS app running a simple expressJS server,
+that 
+- exposes a simple GET request, that returns an html page.
+- uses a simple GET REST API to obtain exchange rate data.
 
 # goals
 * Run a simple ExpressJS server with NodeJS.
@@ -27,6 +38,7 @@ This repo source code has intended bugs. To run the server properly, you will ha
 1. run the project (F5 on keyboard)
 1. Oops, there is a bug (it is OK, don't be scared).
 1. if you did all as expected, after running the app, you should see this message:
+```javascript
          C:\Program Files\nodejs\node.exe --inspect-brk=6758 bin\www 
          Debugger listening on ws://127.0.0.1:6758/28196371-fd09-4827-8fb6-ebd56b88eb54
          For help, see: https://nodejs.org/en/docs/inspector
@@ -47,6 +59,7 @@ This repo source code has intended bugs. To run the server properly, you will ha
          Emitted 'error' event on Server instance at:
              at emitErrorNT (net.js:1336:8)
              at processTicksAndRejections (internal/process/task_queues.js:84:21)
+```
 1. Read the blog post on how to handle the bug "EADDRINUSE: address already in use" - 
    port is already taken, while running nodejs with expressjs.
    https://www.dswtutorial.com/how-to-fix-bug-nodejs-address-already-in-use/
