@@ -19,7 +19,7 @@ This repo source code has intended bugs. To run the server properly, you will ha
     1. #run:  cd /c/git/exchange-rate-api
     1. install nodejs (https://nodejs.org/en/download/)
     1. #run: npm build (make sure you cd to /c/git/exchange-rate-api)
-    1. install vscode ()
+    1. install vscode (https://code.visualstudio.com/docs/setup/setup-overview)
     1. configure vscode to debug nodejs *already configured in cloned repo* (https://code.visualstudio.com/docs/nodejs/nodejs-tutorial)
     1. #run: code . (will open vs code and open the project folder /c/git/exchange-rate-api/myExpressApp)
 1. open the project with the path you choosed (C:\git\exchange-rate-api\myExpressApp) *already opened if used "code ."*.
